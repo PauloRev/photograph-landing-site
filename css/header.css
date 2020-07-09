@@ -1,0 +1,22 @@
+header {
+  background-color: #2c2c2c;
+  color: #fff;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header img {
+  width: 125px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  header {
+    margin-bottom: 0;
+  }
+}

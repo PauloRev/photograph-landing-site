@@ -1,0 +1,119 @@
+section.one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 350px;
+  width: 100%;
+}
+
+section.one article.left-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6% 0;
+}
+
+section.one article.left-one img {
+  width: 300px;
+  margin-top: 60px;
+}
+
+section.one article.left-one h1 {
+  font-size: 36px;
+  margin: 15px 0 45px 0;
+}
+
+section.one article.left-one p {
+  font-size: 16px;
+  text-align: center;
+  padding: 0 15%;
+}
+
+section.one article.left-one div.line-blue {
+  height: 3px;
+  background: #0099FF;
+  width: 60%;
+  margin-top: 60px;
+  border-radius: 5px;
+}
+
+section.one article.right-one {
+  background-image: url(/assets/image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  padding: 15% 4%;
+  box-shadow: 2px 2px 10px #ddd;
+}
+
+section.one article.right-one strong {
+  font-size: 28px;
+}
+
+section.one article.right-one p {
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+section.one article.right-one div.email-received form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+section.one article.right-one div.email-received form input {
+  width: 80%;
+  height: 40px;
+  border-radius: 3px 0 0 3px;
+  background: #fff;
+  border: none;
+  color: #2c2c2c;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+section.one article.right-one div.email-received form button {
+  width: 20%;
+  height: 40px;
+  border-radius: 0 3px 3px 0;
+  background: #0099FF;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 900px) {
+  section.one {
+    flex-wrap: wrap;
+  }
+
+  section.one article.right-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section.one article.right-one div.email-received {
+    width: 100%;
+  }
+
+  section.one article.right-one div.email-received form {
+    margin: 0 auto;
+  }
+}
+
+/* Media Queries */
+@media only screen and (max-width: 500px) {
+  section.one article.left-one img {
+    width: 200px;
+  }
+}

@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  color: #2c2c2c;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+button, input {
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0 30px 0;
+  background: #2c2c2c;
+  color: #fff;
+}
+
+/* Button icon top */
+div.area-btn-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 100%;
+  border: 1px solid #0099ff;
+}
+div.area-btn-top a {
+  text-decoration: none;
+}
+div.area-btn-top a i {
+  font-size: 2rem;
+  color: #000;
+  cursor: pointer;
+  display: none;
+}
+div.area-btn-top a.active-btn i {
+  display: block;
+  z-index: 99;
+}
